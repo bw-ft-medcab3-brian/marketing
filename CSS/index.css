@@ -1,0 +1,183 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 1rem solid #649d66;
+  background-color: #edffea;
+}
+header {
+  display: flex;
+  padding: 1%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid grey;
+  background-color: #649d66;
+}
+header img {
+  height: 15vh;
+}
+header nav {
+  width: 80%;
+  font-size: 1.5rem;
+  text-align: right;
+  padding: 3rem;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+.title-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../Assets/Main Img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15rem;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid grey;
+}
+.title-container h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.title-container h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.description {
+  font-size: 1.1rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  margin: 0;
+  max-width: 100%;
+  border: 1px solid grey;
+  background-color: #edffea;
+}
+.description h3 {
+  font-size: 1.5rem;
+  padding: 0.3rem;
+}
+.listBox {
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 2rem;
+  border: 1px solid grey;
+  background-color: #edffea;
+}
+.listBox h3 {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.listBox li {
+  padding: 0.2rem;
+}
+footer {
+  font-size: 1.5rem;
+  padding: 2rem;
+  background-color: #649d66;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0;
+  max-width: 100%;
+  border: 1px solid grey;
+}
+footer a {
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+}

@@ -150,6 +150,7 @@ header nav a {
   max-width: 100%;
   border: 1px solid grey;
   background-color: #edffea;
+  font-family: 'Poppins', sans-serif;
 }
 .description h3 {
   font-size: 1.7rem;
@@ -163,6 +164,7 @@ header nav a {
   padding: 2rem;
   border: 1px solid grey;
   background-color: #edffea;
+  font-family: 'Poppins', sans-serif;
 }
 .listBox h3 {
   font-size: 1.7rem;
@@ -184,20 +186,29 @@ header nav a {
 .creators {
   border: 1px solid grey;
 }
+.creators img {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .creators .role {
   text-align: center;
   font-size: 1.6rem;
   padding: 0.7rem;
   border: 1px solid grey;
+  font-weight: bold;
 }
 .creators h3 {
   font-size: 1.3rem;
   padding: 1rem;
   border: 1px solid grey;
+  text-align: center;
 }
 .creators p {
   padding: 0.5rem;
   border: 1px solid grey;
+  font-family: 'Poppins', sans-serif;
 }
 footer {
   font-size: 1.5rem;
@@ -214,4 +225,18 @@ footer a {
   padding: 1rem;
   text-decoration: none;
   color: black;
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Merriweather Light'), local('Merriweather-Light'), url(https://fonts.gstatic.com/s/merriweather/v21/u-4n0qyriQwlOrhSvowK_l521wRpXw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrFJA.ttf) format('truetype');
 }

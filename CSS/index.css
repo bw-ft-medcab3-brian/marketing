@@ -95,6 +95,10 @@ body {
   border: 1rem solid #649d66;
   background-color: #edffea;
 }
+a:hover {
+  color: #649d66;
+  background-color: black;
+}
 header {
   display: flex;
   padding: 1%;
@@ -116,6 +120,7 @@ header nav {
 header nav a {
   text-decoration: none;
   color: black;
+  padding: 1rem;
 }
 .title-container {
   color: white;
@@ -147,8 +152,9 @@ header nav a {
   background-color: #edffea;
 }
 .description h3 {
-  font-size: 1.5rem;
-  padding: 0.3rem;
+  font-size: 1.7rem;
+  padding: 1.5rem;
+  text-align: center;
 }
 .listBox {
   font-size: 1.1rem;
@@ -159,22 +165,50 @@ header nav a {
   background-color: #edffea;
 }
 .listBox h3 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   padding: 0.5rem;
 }
 .listBox li {
   padding: 0.2rem;
+  font-size: 1.3rem;
+}
+.listBox p {
+  padding: 0.5rem;
+}
+.about h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid grey;
+}
+.creators {
+  border: 1px solid grey;
+}
+.creators .role {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 0.7rem;
+  border: 1px solid grey;
+}
+.creators h3 {
+  font-size: 1.3rem;
+  padding: 1rem;
+  border: 1px solid grey;
+}
+.creators p {
+  padding: 0.5rem;
+  border: 1px solid grey;
 }
 footer {
   font-size: 1.5rem;
   padding: 2rem;
-  background-color: #649d66;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
   margin: 0;
   max-width: 100%;
   border: 1px solid grey;
+  background-color: #649d66;
 }
 footer a {
   padding: 1rem;

@@ -1,0 +1,242 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 1rem solid #649d66;
+  background-color: #edffea;
+}
+a:hover {
+  color: #649d66;
+  background-color: black;
+}
+header {
+  display: flex;
+  padding: 1%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid grey;
+  background-color: #649d66;
+}
+header img {
+  height: 15vh;
+}
+header nav {
+  width: 80%;
+  font-size: 1.5rem;
+  text-align: right;
+  padding: 3rem;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+.title-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../Assets/Main Img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15rem;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid grey;
+}
+.title-container h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.title-container h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.description {
+  font-size: 1.1rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  margin: 0;
+  max-width: 100%;
+  border: 1px solid grey;
+  background-color: #edffea;
+  font-family: 'Poppins', sans-serif;
+}
+.description h3 {
+  font-size: 1.7rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+.listBox {
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 2rem;
+  border: 1px solid grey;
+  background-color: #edffea;
+  font-family: 'Poppins', sans-serif;
+}
+.listBox h3 {
+  font-size: 1.7rem;
+  padding: 0.5rem;
+}
+.listBox li {
+  padding: 0.2rem;
+  font-size: 1.3rem;
+}
+.listBox p {
+  padding: 0.5rem;
+}
+.about h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid grey;
+}
+.creators {
+  border: 1px solid grey;
+}
+.creators img {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.creators .role {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 0.7rem;
+  border: 1px solid grey;
+  font-weight: bold;
+}
+.creators h3 {
+  font-size: 1.3rem;
+  padding: 1rem;
+  border: 1px solid grey;
+  text-align: center;
+}
+.creators p {
+  padding: 0.5rem;
+  border: 1px solid grey;
+  font-family: 'Poppins', sans-serif;
+}
+footer {
+  font-size: 1.5rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0;
+  max-width: 100%;
+  border: 1px solid grey;
+  background-color: #649d66;
+}
+footer a {
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Merriweather Light'), local('Merriweather-Light'), url(https://fonts.gstatic.com/s/merriweather/v21/u-4n0qyriQwlOrhSvowK_l521wRpXw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrFJA.ttf) format('truetype');
+}

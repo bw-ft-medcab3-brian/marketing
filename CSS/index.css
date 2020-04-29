@@ -105,9 +105,7 @@ header {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid grey;
   background-color: #649d66;
-  flex-wrap: nowrap;
 }
 header img {
   height: 15vh;
@@ -133,7 +131,6 @@ header nav a {
   padding: 15rem;
   width: 100%;
   margin: 0 auto;
-  border: 1px solid grey;
 }
 @media (max-width: 500px) {
   .title-container {
@@ -160,7 +157,6 @@ header nav a {
   box-sizing: border-box;
   margin: 0;
   max-width: 100%;
-  border: 1px solid grey;
   background-color: #edffea;
 }
 .description h3 {
@@ -177,7 +173,6 @@ header nav a {
   box-sizing: border-box;
   margin: 0;
   padding: 2rem;
-  border: 1px solid grey;
   background-color: #edffea;
 }
 .listBox h3 {
@@ -198,32 +193,30 @@ header nav a {
   padding: 2rem;
   border: 1px solid grey;
 }
-.creators {
-  border: 1px solid grey;
-}
 .creators img {
-  width: 20%;
+  width: 15%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 50%;
 }
 .creators .role {
   text-align: center;
   font-size: 1.6rem;
   padding: 0.7rem;
-  border: 0.2rem solid #649d66;
+  border-top: 0.2rem solid #649d66;
+  border-bottom: 0.2rem solid #649d66;
   font-weight: bold;
 }
 .creators h3 {
   font-size: 1.3rem;
   padding: 1rem;
-  border: 1px solid grey;
   text-align: center;
 }
 .creators p {
   padding: 0.5rem;
-  border: 1px solid grey;
   font-family: 'Poppins', sans-serif;
+  border-bottom: 0.1rem solid #649d66;
 }
 footer {
   font-size: 1.5rem;
@@ -233,7 +226,6 @@ footer {
   box-sizing: border-box;
   margin: 0;
   max-width: 100%;
-  border: 1px solid grey;
   background-color: #649d66;
 }
 footer a {

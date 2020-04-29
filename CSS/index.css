@@ -116,16 +116,31 @@ header nav {
   text-align: right;
   padding: 3rem;
 }
+@media (max-width: 500px) {
+  header nav {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+}
 header nav a {
   text-decoration: none;
   color: black;
   padding: 1rem;
+}
+@media (max-width: 500px) {
+  header nav a {
+    width: 100%;
+  }
 }
 .title-container {
   color: white;
   display: flex;
   flex-direction: column;
   background-image: url("../Assets/Main Img.jpg");
+  opacity: 0.5;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 15rem;
@@ -138,12 +153,13 @@ header nav a {
   }
 }
 .title-container h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
 }
 .title-container h3 {
   font-size: 1.5rem;
   text-align: center;
+  border-bottom: 0.2rem solid black;
 }
 @media (max-width: 500px) {
   .title-container h3 {
@@ -214,9 +230,10 @@ header nav a {
   text-align: center;
 }
 .creators p {
-  padding: 0.5rem;
-  font-family: 'Poppins', sans-serif;
-  border-bottom: 0.1rem solid #649d66;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 0.2rem solid #649d66;
 }
 footer {
   font-size: 1.5rem;

@@ -1,3 +1,9 @@
+.accent {
+  background-color: #649d66;
+}
+.flex {
+  display: flex;
+}
 html,
 body,
 div,
@@ -92,7 +98,6 @@ video {
 body {
   margin: 0;
   padding: 0;
-  border: 1rem solid #649d66;
   background-color: #edffea;
 }
 a:hover {
@@ -110,6 +115,11 @@ header {
 header img {
   height: 15vh;
 }
+@media (max-width: 500px) {
+  header img {
+    justify-content: center;
+  }
+}
 header nav {
   width: 80%;
   font-size: 1.5rem;
@@ -119,7 +129,6 @@ header nav {
 @media (max-width: 500px) {
   header nav {
     font-size: 1rem;
-    text-align: center;
     width: 100%;
     padding: 1rem;
     margin: 0 auto;
@@ -133,6 +142,9 @@ header nav a {
 @media (max-width: 500px) {
   header nav a {
     width: 100%;
+    border: 0.2rem solid black;
+    display: flex;
+    justify-content: center;
   }
 }
 .title-container {

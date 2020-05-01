@@ -5,10 +5,14 @@ header{
     margin:0;
     padding:0; 
     //border:1px solid grey;
-    background-color:#649d66;
+    .accent();
     
     img{
         height:15vh;
+
+        @media(max-width:500px){
+            justify-content:center;
+        }
     }//This closes img
     
     nav{
@@ -17,9 +21,8 @@ header{
         text-align:right;
         padding:3rem;
         
-        @media(max-width:500px){
+        @media @mobile{
             font-size:1rem;
-            text-align:center;
             width:100%;
             padding:1rem;
             margin:0 auto;
@@ -30,8 +33,11 @@ header{
             color:black;
             padding:1rem;
 
-            @media(max-width:500px){
+            @media @mobile{
                 width:100%;
+                border:.2rem solid black;
+                display:flex;
+                justify-content:center;
             }
         }//This closes a
     }//This closes nav
